@@ -1,5 +1,5 @@
 def my_select(collection)
-  new_collection = 0
+  new_collection = []
   i = 0
   while i < collection.length
     new_collection << yield(collection[i])
